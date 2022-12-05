@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+
+  /* background: linear-gradient(#e66465, #9198e5); */
+  height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.apply-box {
+  width: 300px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 5px;
+
+  box-shadow: -3px -2px 38px -9px rgba(0, 0, 0, 0.83);
+  -webkit-box-shadow: -3px -2px 38px -9px rgba(0, 0, 0, 0.83);
+  -moz-box-shadow: -3px -2px 38px -9px rgba(0, 0, 0, 0.83);
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto 0;
+  height: 90%;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #111;
+  margin-bottom: 40px;
+}
+
+.container input:focus {
+  outline: none;
+}
+
+label {
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+.occupation-section > select {
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin: 10px 0 20px 0;
+  padding: 7px 0;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 0;
+  background: linear-gradient(#e77777, #888dc2);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 17px;
+}
